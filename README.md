@@ -1,51 +1,43 @@
-# Skills 技能仓库
+# Skills Repository
 
-本仓库收集了用于AI助手的高效工作技能（Skills），帮助处理复杂任务、决策分析和问题解决。
-
-## 技能列表
-
-### 1. superpowers-universal（通用超能力）
-**用途**：适用于任何复杂任务、创意项目、问题解决或多步骤工作的结构化5阶段工作流程。
-
-**核心流程**：CLARIFY → DESIGN → PLAN → EXECUTE → VERIFY
-
-- **CLARIFY**：理解意图 - 明确WHAT和WHY
-- **DESIGN**：设计方案 - 决定HOW
-- **PLAN**：制定计划 - 分解为可执行任务
-- **EXECUTE**：执行工作 - 完成任务
-- **VERIFY**：验证质量 - 确保符合原始意图
-
-[查看详细说明](./superpowers-universal/SKILL.md)
+[English](#english) | [中文](#中文)
 
 ---
 
-### 2. panel-of-experts（专家小组协作）
-**用途**：通过多个专家角色协作，共同解决复杂的多维度问题。适用于战略规划、技术选型、系统设计、职业发展等复杂决策场景。
+## English
 
-**专家角色**（V2.1版本，共9位）：
-1. **调度专家** - 分析问题复杂度，设计工作流
-2. **信息收集专家** - 多源渠道搜索和收集信息
-3. **信息核验专家** - 验证信息来源和真实性
-4. **技术架构专家** - 技术可行性分析
-5. **系统分析专家** - 系统性角度分析关联性
-6. **量化思维专家** - 数据驱动分析和成本效益分析
-7. **成长规划专家** - 长期发展规划和里程碑设计
-8. **汇总专家** - 整合所有分析，形成最终方案
-9. **迭代专家** - 观察记录并提供迭代优化
+A collection of AI assistant skills for handling complex tasks, decision analysis, and problem-solving.
 
-[查看详细说明](./panel-of-experts/SKILL.md)
+### Skill List
 
-## 如何使用
+| Skill Name | Purpose | Applicable Scenarios |
+|-----------|---------|---------------------|
+| [superpowers-universal](./superpowers-universal/) | 5-phase structured workflow (CLARIFY → DESIGN → PLAN → EXECUTE → VERIFY) | Complex tasks, creative projects, problem-solving, multi-step work |
+| [panel-of-experts](./panel-of-experts/) | Multi-expert collaboration framework with 9 specialized roles | Strategic planning, technology selection, system design, career development, complex multi-dimensional decisions |
 
-1. **直接阅读**：每个技能文件夹中的 `SKILL.md` 文件包含完整的使用说明
-2. **参考文档**：`references/` 子文件夹包含详细的参考文档和提示词模板
-3. **结合实际**：根据具体任务选择合适的技能，灵活应用
+### How to Use
 
-## 版本信息
+1. Browse the skill directory you're interested in
+2. Read the `README.md` for overview
+3. Check `SKILL.md` for detailed usage instructions
+4. Explore `references/` for additional guides and prompt templates
 
-- **superpowers-universal**: 基础版本
-- **panel-of-experts**: V2.1（2024-01-15发布，精简至9位专家，增加差异化输出和用户检查点）
+---
 
-## 贡献
+## 中文
 
-欢迎提交改进建议或新的技能！
+AI助手技能集合，用于处理复杂任务、决策分析和问题解决。
+
+### 技能列表
+
+| 技能名称 | 用途 | 适用场景 |
+|---------|------|---------|
+| [superpowers-universal（通用超能力）](./superpowers-universal/) | 5阶段结构化工作流（澄清 → 设计 → 规划 → 执行 → 验证） | 复杂任务、创意项目、问题解决、多步骤工作 |
+| [panel-of-experts（专家小组协作）](./panel-of-experts/) | 9位专家角色的多专家协作框架 | 战略规划、技术选型、系统设计、职业发展、复杂多维度决策 |
+
+### 如何使用
+
+1. 浏览你感兴趣的技能目录
+2. 阅读 `README.md` 了解概览
+3. 查看 `SKILL.md` 获取详细使用说明
+4. 探索 `references/` 目录获取更多指南和提示词模板

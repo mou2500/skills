@@ -1,0 +1,5 @@
+[
+  {"id": 1, "prompt": "查看等级", "expected": "读取 skill-levels.md，展示所有 skill 的等级/XP/下次升级，不触发任何修改"},
+  {"id": 2, "prompt": "我刚用 text2img 改了 3 次才出满意的图，记一次经验", "expected": "先追问结果类型 (ok/modified/failed) 和教训 → XP 按结果加权 → 更新 state 和 lessons"},
+  {"id": 3, "prompt": "升级所有待升级技能", "expected": "找出 XP ≥ 5 的 skill，读 lessons，触发 darwin-skill，每轮让你确认，升级后 XP-=5，连升检查"}
+]

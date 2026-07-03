@@ -14,6 +14,7 @@ A collection of AI assistant skills for handling complex tasks, decision analysi
 |-----------|---------|---------------------|
 | [superpowers-universal](./superpowers-universal/) | 5-phase structured workflow (CLARIFY → DESIGN → PLAN → EXECUTE → VERIFY) | Complex tasks, creative projects, problem-solving, multi-step work |
 | [panel-of-experts](./panel-of-experts/) | Multi-expert collaboration framework with 9 specialized roles | Strategic planning, technology selection, system design, career development, complex multi-dimensional decisions |
+| [sebastian（工程管家）](./sebastian/) | Meta-skill for task orchestration: weighted skill matching, multi-step workflow orchestration, tool index management | Complex multi-step tasks, skill discovery & management, workflow planning, learning review |
 
 ### How to Use
 
@@ -34,6 +35,7 @@ AI助手技能集合，用于处理复杂任务、决策分析和问题解决。
 |---------|------|---------|
 | [superpowers-universal（通用超能力）](./superpowers-universal/) | 5阶段结构化工作流（澄清 → 设计 → 规划 → 执行 → 验证） | 复杂任务、创意项目、问题解决、多步骤工作 |
 | [panel-of-experts（专家小组协作）](./panel-of-experts/) | 9位专家角色的多专家协作框架 | 战略规划、技术选型、系统设计、职业发展、复杂多维度决策 |
+| [sebastian（工程管家）](./sebastian/) | 元技能（meta-skill）：任务编排、加权匹配 skills、多步骤工作流编排、工具索引管理 | 复杂多步骤任务、技能发现与管理、工作流规划、学习复盘 |
 
 ### 如何使用
 
